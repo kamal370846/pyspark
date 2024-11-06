@@ -1,0 +1,4 @@
+These are the most salient learning resources from our classrooms, digital curricula, video library, and AWS Lab Environment, that comprise an
+first primer for the AWS Cloud. This guide is not intended to be consumed entirely. Different sections tackle different objectives. Some
+resources will be less relevant to you today. The guide will help you decide where you want to start your learning journey, and which step
+should be your next. 

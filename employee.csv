@@ -1,0 +1,11 @@
+employee_id,first_name,last_name,age,department_id,salary,join_date,active
+1,Alice,Johnson,34,1,70000,2015-01-10,True
+2,Bob,Smith,45,2,120000,2010-05-23,True
+3,Charlie,Williams,29,2,110000,2018-07-01,True
+4,David,Brown,23,3,60000,2019-09-15,True
+5,Eve,Jones,40,1,75000,2012-04-12,False
+6,Frank,Garcia,50,4,115000,2008-01-22,True
+7,Grace,Miller,32,2,105000,2017-11-03,False
+8,Hank,Davis,28,3,55000,2020-02-28,True
+9,Ivy,Martinez,31,4,90000,2013-11-12,True
+10,Jack,Lopez,27,1,65000,2021-06-30,True
