@@ -7,14 +7,14 @@ import sys
 # print("PYSPARK_DRIVER_PYTHON:", os.environ.get("PYSPARK_DRIVER_PYTHON"))
 # print("PYSPARK_PYTHON:", os.environ.get("PYSPARK_PYTHON"))
 
-# Set the environment variables if they are not set
-if not os.environ.get("PYSPARK_DRIVER_PYTHON"):
-    os.environ["PYSPARK_DRIVER_PYTHON"] = "/opt/homebrew/bin/python3.9"  # Replace with the path to your Python 3.9 executable
-if not os.environ.get("PYSPARK_PYTHON"):
-    os.environ["PYSPARK_PYTHON"] = "/opt/homebrew/bin/python3.9"  # Replace with the path to your Python 3.9 executable
+# Set the environment variables if they are not set uncomment below if it is not python3.9
+# if not os.environ.get("PYSPARK_DRIVER_PYTHON"):
+#     os.environ["PYSPARK_DRIVER_PYTHON"] = "/opt/homebrew/bin/python3.9"  # Replace with the path to your Python 3.9 executable
+# if not os.environ.get("PYSPARK_PYTHON"):
+#     os.environ["PYSPARK_PYTHON"] = "/opt/homebrew/bin/python3.9"  # Replace with the path to your Python 3.9 executable
 
-print("PYSPARK_DRIVER_PYTHON:", os.environ.get("PYSPARK_DRIVER_PYTHON"))
-print("PYSPARK_PYTHON:", os.environ.get("PYSPARK_PYTHON"))
+# print("PYSPARK_DRIVER_PYTHON:", os.environ.get("PYSPARK_DRIVER_PYTHON"))
+# print("PYSPARK_PYTHON:", os.environ.get("PYSPARK_PYTHON"))
 
 from pyspark.sql import SparkSession
 # spark = SparkSession.builder \
